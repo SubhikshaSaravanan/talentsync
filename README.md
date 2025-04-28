@@ -177,21 +177,3 @@ Make sure the large files like `.pt` and `.csv` are uploaded correctly.
 | No missing assets or data | ✅ |
 
 ---
-
-# GitHub Project Description (for README/Repo)
-
-```markdown
-🦊 TalentSync: AI-Powered Resume Matcher
-
-Build your dream team, no cap. 
-TalentSync matches resumes to jobs, explains fit using AI, and predicts future career paths.  
-Fast matching, intelligent explanations, smart recruiting — powered by embeddings, RAG, and ML models.  
-Built with Streamlit, SentenceTransformers, Flan-T5, FAISS, and RandomForest magic. 
-
-Try it out now and experience next-gen recruitment.
-```
-
- You can paste this directly on GitHub too!
-
----
-
