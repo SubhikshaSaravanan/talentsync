@@ -32,10 +32,10 @@ Designed to be smart, fast, and fun — perfect for recruiters who want intellig
 | `label_encoder.pkl` | Label encoder to map predicted classes back to readable job titles |
 | `requirements.txt` | List of all required Python libraries |
 
-Dataset Source:
-Kaggle: Resume Dataset (Snehaan Bhawal)
-Kaggle: Resume Dataset (Saugata Roy)
-Preprocessed_Data.txt - Additional cleaned dataset collected and preprocessed to build career trajectory paths
+## Dataset Source:
+- Kaggle: Resume Dataset (Snehaan Bhawal)
+- Kaggle: Resume Dataset (Saugata Roy)
+- Preprocessed_Data.txt - Additional cleaned dataset collected and preprocessed to build career trajectory paths
 
 
 ## What Each File/Notebook Does (in Detail)
