@@ -1,4 +1,4 @@
-# 🦊 TalentSync: Build Your Dream Team, No Cap
+# TalentSync: Build Your Dream Team, No Cap
 
 TalentSync is an AI-powered resume matching and career trajectory prediction app.  
 It uses embeddings, retrieval-based search, and language models to:
