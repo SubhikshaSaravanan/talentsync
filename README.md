@@ -42,7 +42,7 @@ Designed to be smart, fast, and fun — perfect for recruiters who want intellig
 | File | What Happens Inside |
 |---|---|
 | **application_main.ipynb** | - Loads resume metadata and embeddings<br>- Sets up FAISS search index<br>- Implements RAG-style explanation with Flan-T5<br>- Predicts career trajectory |
-| **executable.ipynb** | - Loads preprocessed resume text<br>- Encodes resumes using SentenceTransformer<br>- - Combines embeddings using Gated Residual Network<br>Saves `.pt` embedding files for fast search |
+| **executable.ipynb** | - Loads preprocessed resume text<br>- Encodes resumes using SentenceTransformer<br>- Combines embeddings using Gated Residual Network<br>- Saves `.pt` embedding files for fast search |
 | **syn_data1(1).ipynb** | - Cleans career trajectory titles<br>- Creates training samples<br>- Trains a Logistic Regression career prediction model |
 | **embedding_2.ipynb** | - Advanced title cleaning<br>- Trains an XGBoost-based career prediction model for better accuracy |
 | **app.py** | - Streamlit main file<br>- Handles page routing and configuration |
