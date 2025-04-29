@@ -19,7 +19,7 @@ Designed to be smart, fast, and fun — perfect for recruiters who want intellig
 | `application_main.ipynb` | Main Colab notebook — brings everything together: loading metadata, embedding search, RAG explanations, UI sketch |
 | `executable.ipynb` | Embedding generation + GRN scoring and FAISS index creation for resumes |
 | `syn_data1(1).ipynb` | Training the first version of the career trajectory prediction model |
-| `embedding_2.ipynb` | Improved second version for career trajectory prediction, with structured feature engineering |
+| `final_embedding_2.ipynb` | Improved second version for career trajectory prediction, with structured feature engineering |
 | `app.py` | Main Streamlit app entry point |
 | `pages/Home.py` | Streamlit "Home" page — welcome screen with branding, mascot, and "Start Recruiting" button |
 | `pages/Recruit.py` | Streamlit "Recruit" page — job input → top candidates → RAG explanation → career prediction |
