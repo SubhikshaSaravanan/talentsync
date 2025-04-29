@@ -17,7 +17,7 @@ Designed to be smart, fast, and fun — perfect for recruiters who want intellig
 | File/Folder | Purpose |
 |:------------|:--------|
 | `application_main.ipynb` | Main Colab notebook — brings everything together: loading metadata, embedding search, RAG explanations, UI sketch |
-| `executable.ipynb` | Embedding generation and FAISS index creation for resumes |
+| `executable.ipynb` | Embedding generation + GRN scoring and FAISS index creation for resumes |
 | `syn_data1(1).ipynb` | Training the first version of the career trajectory prediction model |
 | `embedding_2.ipynb` | Improved second version for career trajectory prediction, with structured feature engineering |
 | `app.py` | Main Streamlit app entry point |
@@ -35,8 +35,7 @@ Designed to be smart, fast, and fun — perfect for recruiters who want intellig
 ## Dataset Source
 - Kaggle: Resume Dataset (Snehaan Bhawal)
 - Kaggle: Resume Dataset (Saugata Roy)
-- Preprocessed_Data.txt - Additional cleaned dataset collected and preprocessed to build career trajectory paths
-
+- GitHub: Resume-Classification-Dataset (https://github.com/noran-mohamed/Resume-Classification-Dataset, Noran Mohamed)
 
 ## What Each File/Notebook Does 
 
@@ -145,6 +144,7 @@ Make sure the large files like `.pt` and `.csv` are uploaded correctly.
 | Component | Details |
 |---|---|
 | Embedding Model | all-MiniLM-L6-v2 (SentenceTransformer) |
+| Scoring (1st Level) | Gated Residual Network |
 | Search Engine | FAISS (Flat L2 index) |
 | Explanation LLM | Flan-T5 Base (from Huggingface Transformers) |
 | Career Prediction Model | RandomForestClassifier (scikit-learn) |
